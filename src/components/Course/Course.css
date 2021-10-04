@@ -1,0 +1,15 @@
+.custom-height{
+    height: 550px;
+}
+.custom-img{
+    height: 200px;
+}
+.fa-star, .custom-color{
+    color: orange;  
+}
+.custom-icon{
+    transition: 0.8s;
+}
+.custom-icon:hover{
+    transform: rotate(180deg);
+}

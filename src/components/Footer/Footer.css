@@ -1,0 +1,13 @@
+.footer-items{
+    background-color: #07294E;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.custom-footer-icon .fab{
+    font-size: 25px;
+    color: #fff;
+}
+.footer-items p{
+    margin-top: 10px;
+}

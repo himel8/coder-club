@@ -1,0 +1,16 @@
+.from-box{
+    display: flex;
+    justify-content: center;
+    
+}
+.custom-bg-color{
+    background-color: #07294E;   
+}
+.custom-bg-color h1{
+    color: #fff;
+    line-height: 50px;
+    padding: 40px;
+}
+.custom-icon-size{
+    font-size: 35px;
+}

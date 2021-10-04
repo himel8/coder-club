@@ -1,0 +1,32 @@
+.signup-box{
+box-shadow: 0px 0px 3px 8px rgba(221, 205, 205, 0.2);
+}
+.box-text{
+    background-color: #07294E;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+.box-text h3{
+    color: #FFCA2C;
+}
+.box-text p{
+    color: #fff;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.custom-btn{
+    background-color: #FFCA2C;
+    border: 1px solid #FFCA2C;
+    color: #07294E;
+    font-weight: bold;
+}
+.custom-btn:hover{
+    background-color: #07294E;
+    border: 1px solid #07294E;
+    color: #FFCA2C;
+    font-weight: bold;
+}
