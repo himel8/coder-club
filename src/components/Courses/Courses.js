@@ -10,6 +10,7 @@ const Courses = () => {
             <h1 className ='my-3 custom-header-text'>Our Courses</h1>
             <Container>
             <Row className=' align-items-center'>
+                {/* araay mapping  */}
             {
                 courses.map(course => <Course course={course} key ={course.key}></Course>)
             }

@@ -8,10 +8,12 @@ const Footer = () => {
         <div className='footer-items'>
             <Container className='footer-items'>
             <Row className='justify-content-between align-items-center'>
+                {/* copyright column  */}
                 <Col sm={12} xs={12} md={6}>
                 <p>Copyright @ 2021 reserved by Coder Club</p>
                 </Col>
                 <Col sm={12} xs={12} md={6}>
+                    {/* social column  */}
                 <p className='custom-footer-icon'>
                     <Link to ='/contact'>
                     <i className="fab custom-icon fa-facebook"/>

@@ -10,9 +10,11 @@ const Header = () => {
            <Container>
                <Row className='align-items-center'>
                    <Col sm={12} xs={12} md={6}>
+                       {/* header title  */}
                    <h2 className='text-light'>Coders Club</h2>
                    </Col>
                    <Col sm={12} xs={12} md={6}>
+                       {/* header navigation */}
                     <NavLink to ='/home' activeStyle={navStyle}>Home</NavLink> 
                     <NavLink to ='/courses' activeStyle={navStyle}>Courses</NavLink> 
                     <NavLink to ='/about' activeStyle={navStyle}>About</NavLink> 

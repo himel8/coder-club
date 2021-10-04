@@ -7,16 +7,19 @@ const Event = (props) => {
     return (
         <div>
             <p>
+                {/* custom component  */}
                 <FontAwesomeIcon className='custom-color custom-icon' icon ={faCalendar}/>
                 <span className='ms-2'>{date}</span>
             </p>
             <h4 className='custom-color'>{title}</h4>
             <div className='d-flex justify-content-start'>
             <p className='me-3'>
+                {/* custom component  */}
                 <FontAwesomeIcon className='custom-color custom-icon' icon ={faClock}/>
                 <span className='ms-2'>10:00 am - 3:00 pm</span>
             </p>
             <p>
+                {/* custom component  */}
                 <FontAwesomeIcon className='custom-color custom-icon' icon ={faMapMarkedAlt}/>
                 <span className='ms-2'>Rc Auditorium</span>
             </p>

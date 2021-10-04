@@ -4,6 +4,10 @@
 .custom-img{
     height: 200px;
 }
+
+/* -------------
+ all icon style
+ ---------------  */
 .fa-star, .custom-color{
     color: orange;  
 }

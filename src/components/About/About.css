@@ -1,6 +1,10 @@
+/* about toggle style  */
 .custom-flex{
     flex-direction: row-reverse;
 }
+/* ---------
+   all custom header text style  
+-------------*/
 .custom-header-text{
     position: relative;
 }

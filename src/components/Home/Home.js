@@ -13,6 +13,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            {/* event & from section  */}
             <Container>
             <Row className='align-items-center'>
                 <Col sm={12} xs={12} md={6} className='py-3 px-5 text-start'>
@@ -22,8 +23,9 @@ const Home = () => {
                 <Col sm={12} xs={12} md={6}>
                     <From></From>
                 </Col>
-                
+
             </Row>
+                {/* featured course section  */}
             <div className ='text-start'>
                 <h5>Recent course</h5>
                 <h1>Feautured course</h1>
